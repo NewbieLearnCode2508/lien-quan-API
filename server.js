@@ -32,7 +32,7 @@ app.get("/tuong", (req, resp) => {
                 const name = $(this).find(".heroes > .name").attr("data-name");
                 const id = $(this).find(".heroes > .name").attr("data-id");
                 const img = $(this).find(".heroes > a > img").attr("src");
-                const url = "http://localhost:8000/chi-tiet-tuong/" + id;
+                const url = "https://lien-quan-api.onrender.com/chi-tiet-tuong/" + id;
                 tuongs.push({
                     name,
                     id,
